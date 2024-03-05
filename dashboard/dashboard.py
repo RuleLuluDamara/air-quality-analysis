@@ -78,7 +78,7 @@ def create_monthly_plot(frame, pollutant):
 
 
 # Load cleaned data
-air_df = pd.read_csv("/dashboard/main_data.csv")
+air_df = pd.read_csv("dashboard/main_data.csv")
 
 # Sidebar
 with st.sidebar:
